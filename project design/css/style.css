@@ -1,0 +1,100 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(../Image/background\ image.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+
+#main{
+    width: auto;
+    height: auto;
+    position: relative;   
+    display: none;
+}
+#loder{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    right: 0;
+    background: url('../Image/1.gif') no-repeat;
+    background-size: 350px 350px;
+}
+.sign{
+    margin-left: 30%;
+    color: grey;
+}
+.content{
+    width: auto;
+    height: auto;
+    
+}
+.logo img{
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 5%;
+}
+.form{
+    width: 100%;
+    height: auto;
+}
+.form input[type=text]
+{
+    width: 25%;
+    height: 30px;
+    margin-left: 30%;
+    border-radius: 10px;
+    
+}
+.login {
+    width: 10%;
+    height: 45px;
+    margin-left: 38%;
+    border-radius: 10px;
+    background-color: #5bc2e7 ;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.login:hover{
+ box-shadow: 0px 1px 1px 1px blue;
+ transition: 1s;
+}
+.File{
+    width: 22%;
+    height: 45px;
+    margin-left: 33%;
+    border-radius: 10px;
+    background-color: #34bfa3 ;
+    border: none;
+    outline: none;
+}
+.hr{
+    width: 11%;
+    height: 45px;
+    margin-left: 33%;
+    border-radius: 10px;
+    background-color: rgb(219, 98, 98) ;
+    border: none;
+    outline: none;
+}
+.emp{
+    width: 11%;
+    height: 45px;
+    /* margin-left: 33%; */
+    border-radius: 10px;
+    background-color: rgb(88, 88, 205) ;
+    border: none;
+    outline: none;
+}
+
+
+/* atednas */
+.leave{
+    
+}
