@@ -1,0 +1,125 @@
+body{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ul li{
+    text-decoration: none !important;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    width: 20%;
+    height: 200px;
+    line-height: 80px;
+}
+#content{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+/* hedar */
+.navbar {
+    width: 13%;
+    height: 722px;
+    border: 2px solid black;
+    display: flex;
+}
+.navbar img{
+    width: 80%;
+    margin-right: 20px;
+}
+.our{
+    width: 75%;
+    height: auto;
+    background-color: rgba(221, 211, 211, 0.639);
+    margin-left: 20px;
+}
+
+input[type=search]
+{
+    width: 40%;
+    height: 35px;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+input[type=button]
+{
+    width: 12%;
+    height: 40px;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: cornflowerblue ;
+}
+/* attends */
+hr{
+    width: 100%;
+    /* margin-left: -0%; */
+}
+.attends{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 50px;
+}
+input[type=date],input[type=time]
+{
+    width: 50%;
+    height: 30px;
+}
+select{
+    width: 50%;
+    height: 30px;
+}
+button[type=submit]
+{
+    width: 8%;
+    height: 30px;
+    background-color: green;
+    margin-left: 30%;
+    color: white;
+    cursor: pointer;
+}
+button[type=close]
+{
+    width: 08%;
+    height: 30px;
+    background-color: red;
+    color: white;   
+    cursor: pointer;
+}
+
+/* leave */
+#content1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.leave{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: -650px;
+    top: -670px;   
+   
+}
+textarea{
+    resize: none;
+}
+.l{
+    position: relative;
+    top: -690px;
+    right:-670px;
+}
+
